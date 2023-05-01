@@ -5,15 +5,16 @@
     padding: 0px;
 }
 
-html, body {
+html,
+body {
     min-height: 100vh;
     font-family: Tahoma;
 }
 
 header {
     background-color: #afddfb;
-   
-    
+
+
 }
 
 .banner-topo {
@@ -23,11 +24,12 @@ header {
     padding-top: 1vh;
 
 }
+
 .banner-topo img {
     width: 130px;
 }
 
-.link-topo{
+.link-topo {
     display: flex;
     justify-content: center;
 
@@ -43,6 +45,7 @@ header {
     text-decoration: none;
     margin: 0 10px;
 }
+
 p a {
     color: #1d1d1d;
     border-bottom: 2px solid #1d1d1d;
@@ -53,19 +56,17 @@ p a {
 }
 
 a:hover {
-    background-color: #1d7fc189;
-    padding: 0px 2px 0px 2px;
-
-    border-radius: 10px;
     font-size: 0.9em;
     font-weight: bold;
 }
+
 section {
     padding-bottom: 20px;
     display: block;
     justify-content: center;
     align-items: center;
 }
+
 .secao {
     text-align: center;
     padding-top: 30px;
@@ -83,7 +84,7 @@ section {
 img {
     display: block;
     margin: auto;
-     
+
     width: 50vw\;
 }
 
@@ -91,7 +92,7 @@ img {
     width: 450px;
 }
 
-.titulos h1, 
+.titulos h1,
 .titulos h2,
 .titulos h3 {
     display: flex;
@@ -112,7 +113,8 @@ img {
 
 }
 
-.servico, .contato {
+.servico,
+.contato {
     background-color: #1d80c1;
 }
 
@@ -170,4 +172,100 @@ iframe {
     margin: auto;
 
     border-radius: 10px;
+}
+
+.rodape {
+    background-color: #000000;
+    color: white;
+
+    margin: 5px 0px 5px 0px;
+    padding: 0px 5px 0px 5px;
+
+    text-align: center;
+}
+
+.rodape p {
+    font-size: 16px;
+    display: inline;
+}
+
+.rodape a {
+    color: #1d80c1;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.rodape a:hover,
+footer a:hover {
+    color: aquamarine;
+    border-bottom: 1px solid aquamarine;
+}
+
+footer {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+}
+
+@media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+header {
+    height: 30vh;
+    width: 100%;
+}
+
+.link-topo a {
+    font-size: 14px;
+}
+    section {
+        display: inline;
+        justify-content: flex-start;
+
+        padding-bottom: 5px;
+
+        width: 100vw;
+
+    }
+
+    .titulos {
+        font-size: 16px;
+        padding: 2px;
+    }
+    
+    .paragrafo {
+        width: 80vw;
+        padding: 2px;
+
+        font-size: 14px;
+        line-height: 20px;
+
+        text-indent: 3px;
+    }
+
+    .item-lista-servicos,
+    h3,
+    h2,
+    h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    iframe {
+        width: 250px;
+        height: 20vh;
+    }
+
+    .imagem {
+        width: 60vw;
+    }
+
+    .rodape p,
+    .rodape a,
+    footer p {
+        padding-top: 5px;
+        font-size: 12px;
+    }
 }
