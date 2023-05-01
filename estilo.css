@@ -212,14 +212,16 @@ footer {
     body {
         overflow-x: hidden;
     }
-header {
-    height: 30vh;
-    width: 100%;
-}
 
-.link-topo a {
-    font-size: 14px;
-}
+    header {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .link-topo a {
+        font-size: 14px;
+    }
+
     section {
         display: inline;
         justify-content: flex-start;
@@ -234,7 +236,7 @@ header {
         font-size: 16px;
         padding: 2px;
     }
-    
+
     .paragrafo {
         width: 80vw;
         padding: 2px;
