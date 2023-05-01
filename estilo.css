@@ -2,7 +2,6 @@
 
 * {
     margin: 0px;
-    padding: 0px;
 }
 
 html,
@@ -41,27 +40,26 @@ header {
     color: #1d1d1d;
     border-bottom: 2px solid #1d1d1d;
 
-    font-size: 1em;
+
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0px 8px;
 }
 
 p a {
     color: #1d1d1d;
     border-bottom: 2px solid #1d1d1d;
 
-    font-size: 1em;
+   
     text-decoration: none;
     margin: 0 10px;
 }
 
 a:hover {
-    font-size: 0.9em;
-    font-weight: bold;
+    color: #1c81c0;
+    border-bottom: 2px solid #1bceff00;
 }
 
 section {
-    padding-bottom: 20px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -185,6 +183,7 @@ iframe {
 }
 
 .rodape p {
+   
     font-size: 16px;
     display: inline;
 }
@@ -203,18 +202,29 @@ footer a:hover {
 }
 
 footer {
+    background-color: #000000;
+    color: white;
     text-transform: uppercase;
-    text-align: center;
-    margin: 0px;
-}
 
-@media (max-width: 320px) {
+    
+}
+footer p{
+    
+    
+    padding: 20px 0px 10px 0px;
+    margin: 0px;
+    
+}
+@media (max-width: 720px) {
+
     body {
+        margin: 0px;
+        padding: 0px;
     }
 
     header {
         height: 30vh;
-        width: 100%;
+       
     }
 
     .link-topo a {
@@ -222,18 +232,16 @@ footer {
     }
 
     section {
-        display: inline;
+        display: block;
         justify-content: center;
+        align-items: center;
 
-        padding-bottom: 5px;
-
-        width: 100vw;
 
     }
 
     .titulos {
         font-size: 16px;
-        padding: 2px;
+    
     }
 
     .paragrafo {
@@ -244,6 +252,13 @@ footer {
         line-height: 20px;
 
         text-indent: 3px;
+    }
+    .paragrafo-rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        margin-top: -10px;
     }
 
     .item-lista-servicos,
