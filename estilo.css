@@ -210,7 +210,6 @@ footer {
 
 @media (max-width: 320px) {
     body {
-        overflow-x: hidden;
     }
 
     header {
@@ -224,7 +223,7 @@ footer {
 
     section {
         display: inline;
-        justify-content: flex-start;
+        justify-content: center;
 
         padding-bottom: 5px;
 
