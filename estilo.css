@@ -49,7 +49,7 @@ p a {
     color: #1d1d1d;
     border-bottom: 2px solid #1d1d1d;
 
-   
+
     text-decoration: none;
     margin: 0 10px;
 }
@@ -183,14 +183,15 @@ iframe {
 }
 
 .rodape p {
-   
+
     font-size: 16px;
     display: inline;
 }
 
-.rodape a {
+.rodape a,
+footer a {
     color: #1d80c1;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
 
 }
@@ -206,15 +207,21 @@ footer {
     color: white;
     text-transform: uppercase;
 
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
-footer p{
-    
-    
+
+footer p {
+
+
     padding: 20px 0px 10px 0px;
     margin: 0px;
-    
+
 }
+
 @media (max-width: 720px) {
 
     body {
@@ -224,7 +231,7 @@ footer p{
 
     header {
         height: 30vh;
-       
+
     }
 
     .link-topo a {
@@ -241,7 +248,7 @@ footer p{
 
     .titulos {
         font-size: 16px;
-    
+
     }
 
     .paragrafo {
@@ -253,6 +260,7 @@ footer p{
 
         text-indent: 3px;
     }
+
     .paragrafo-rodape {
         display: flex;
         justify-content: center;
